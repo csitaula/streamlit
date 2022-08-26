@@ -2,7 +2,7 @@ import streamlit as st
 import pandas
 import numpy
 
-st.title("Streamlit Form Demo")
+st.title("Streamlit Form Demo Revised")
 #CREATING OUR FORM FIELDS
 with st.form("form1", clear_on_submit=True):
     name = st.text_input("Enter full name")
